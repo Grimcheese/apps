@@ -1,0 +1,22 @@
+Random num generator
+
+Randomly generate a decimal number and display it to the user. Convert the 
+number to binary and then display that to the user
+
+START
+	select type of numbers to generate and how many
+
+	FOR 0 to n
+		IF BINARY:
+			Generate binary numbers
+			DISPLAY binary number
+			STORE binary num
+			CONVERT binary num to decimal and store in list
+		ELSE:
+			GENERATE decimal number
+			DISPLAY decimal number
+			STORE decimal number
+			CONVERT decimal num to binary and store in list
+			
+	PRINT both lists
+		
